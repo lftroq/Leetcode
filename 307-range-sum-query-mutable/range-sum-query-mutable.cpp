@@ -25,7 +25,6 @@ public:
     }
 
     int sumRange(int left, int right) {
-        cout << endl;
         int ans = 0;
         right++;
         for (; right; right -= (right & (-right)))
